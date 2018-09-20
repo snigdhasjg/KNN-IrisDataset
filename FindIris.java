@@ -1,5 +1,3 @@
-package abc;
-
 import java.io.*;
 import java.util.*;
 
