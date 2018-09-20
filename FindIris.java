@@ -1,6 +1,14 @@
 import java.io.*;
 import java.util.*;
 
+/*
+to import org.apache.poi.ss.usermodel simply you need to add the jar file
+
+https://mvnrepository.com/artifact/org.apache.poi/poi/3.9
+
+Go to this link download the jar file Add it in your lib folder.
+*/
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
