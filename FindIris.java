@@ -9,11 +9,8 @@ public class FindIris {
 
     public List<Iris> makeList(){
         try {
-            File file = new File("/home/snigdha/Downloads/ImageTest/src/abc/Iris.xls");
-            //FileInputStream fis = new FileInputStream(file);
-            //XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
+            File file = new File("Iris.xls"); //location to the file
             org.apache.poi.ss.usermodel.Workbook myWorkBook = WorkbookFactory.create(file);
-            //XSSFSheet mySheet = myWorkBook.getSheetAt(0);
             org.apache.poi.ss.usermodel.Sheet mySheet = myWorkBook.getSheetAt(0);
 
             Iterator<Row> rowIterator = mySheet.iterator();
